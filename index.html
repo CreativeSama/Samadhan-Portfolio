@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samadhan's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="darkToggle">🌙 Dark Mode</button>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="center" data-aos="fade-up">
+    <img src="your-photo.jpg" alt="Samadhan Photo" class="profile-pic">
+    <h1>Hi, I'm <span>Samadhan Ghalake</span></h1>
+    <p id="typing"></p>
+    <a href="Samadhan-Resume.pdf" download>
+      <button class="resume-btn">📄 Download Resume</button>
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" data-aos="fade-right">
+    <h2>About Me</h2>
+    <p>I am currently studying ENTC engineering at SPPU. 
+    I enjoy coding, solving problems, and exploring technology.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" data-aos="fade-left">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <img src="project1.jpg" alt="Student System">
+        <h3>📘 Student Management System</h3>
+      </div>
+      <div class="card">
+        <img src="project2.png" alt="Portfolio Website">
+        <h3>🌐 Portfolio Website</h3>
+      </div>
+      <div class="card">
+        <img src="project3.jpg" alt="Calculator">
+        <h3>🖩 Calculator (HTML + JS)</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" data-aos="zoom-in">
+    <h2>My Blog</h2>
+    <article class="blog-card">
+      <h3>Learning HTML</h3>
+      <p>HTML is the foundation of web development. It defines the structure of webpages...</p>
+      <a href="#">Read More</a>
+    </article>
+    <article class="blog-card">
+      <h3>First Steps in CSS</h3>
+      <p>CSS adds beauty to the structure. With colors, fonts, and layouts, your site comes alive...</p>
+      <a href="#">Read More</a>
+    </article>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name">
+      <input type="email" id="email" placeholder="Your Email">
+      <textarea id="message" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+      <p id="formMessage"></p>
+    </form>
+    <p>📧 <a href="mailto:samadhanghalake4301@gmail.com">samadhanghalake4301@gmail.com</a></p>
+    <p>📱 <a href="tel:7620082547">7620082547</a></p>
+    <p>💼 <a href="https://www.linkedin.com/in/samadhan-ghalake-79366728a" target="_blank">LinkedIn Profile</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Samadhan Ghalake | All Rights Reserved</p>
+    <div class="socials">
+      <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+      <a href="#"><img src="github.png" alt="GitHub"></a>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
