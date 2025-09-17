@@ -138,3 +138,12 @@ footer .socials img:hover { transform: scale(1.2); }
 .dark-mode nav { background: #444; }
 .dark-mode .card { background: #333; color: white; }
 .dark-mode .blog-card { background: #333; color: white; }
+
+.tagline {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: 500;
+  color: #ffe082; /* golden accent */
+}
+
+
