@@ -145,5 +145,10 @@ footer .socials img:hover { transform: scale(1.2); }
   font-weight: 500;
   color: #ffe082; /* golden accent */
 }
+body {
+  background: linear-gradient(135deg, #f9f9f9, #fff8f0);
+}
+
+
 
 
